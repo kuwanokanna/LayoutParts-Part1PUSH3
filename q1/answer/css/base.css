@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 h1, h2, h3 {
   text-align: center;
   margin: 40px 0;
@@ -40,27 +41,11 @@ h1, h2, h3 {
 }
 
 .container {
-  display:  -block;
+  display: inline-block;
   width: 250px;
   height: 150px;
   margin: 0 auto;
   background-color: #FFF;
   font-size: 16px;
   vertical-align: top;
-}/* 回答はここから */
-
-.list {
-  display: flex;
-  justify-content: center;
-} 
-
-.list-card{
-  list-style: none;
-  width: 200px;
-  margin: 30px;
-  outline: 10px solid #655;
-  box-shadow: 0 0 0 6px #655;
-  border-radius: 13px;
-  padding: 10px;
-  background: #d2b48c;
 }
